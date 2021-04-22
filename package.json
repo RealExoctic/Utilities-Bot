@@ -1,0 +1,20 @@
+{
+  "name": "testbot",
+  "version": "1.0.0",
+  "description": "Test Discord bot written on linux",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo Running the bot... node bot.js"
+  },
+  "author": "RealExoctic#8440",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord-reply": "^0.1.2",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "enmap": "^5.8.4",
+    "rover-api": "^1.1.0"
+  }
+}
