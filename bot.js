@@ -99,4 +99,4 @@ Client.on("message", Message => {
     }
 })
 
-Client.login(process.ENV.DISCORDTOKEN)
+Client.login(process.env.DISCORDTOKEN)
